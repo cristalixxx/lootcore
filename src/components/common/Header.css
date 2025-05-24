@@ -1,0 +1,156 @@
+/* Base Styles */
+.header-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-background {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-image {
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    transition: transform .3s ease, filter .3s ease;
+    width: 100%;
+}
+
+/* Auth Links */
+.auth-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Minecraftia', sans-serif;
+    font-size: 15px;
+    color: #d9d9d9;
+}
+
+.auth-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.auth-link:hover {
+    color: white;
+}
+
+.auth-divider {
+    margin: 0 12px;
+    height: 25px;
+    width: 2px;
+    background-color: white;
+    position: relative;
+    top: -5px;
+}
+
+/* Navigation */
+.main-navigation {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 0 16px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Nav Button Styles */
+.nav-button-link {
+    display: block;
+}
+
+.nav-button-outer {
+    height: 55px;
+    padding: 2px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #E7E0E0 21%, #535353 100%);
+}
+
+
+.nav-button-outer.gold {
+    height: 55px;
+    padding: 2px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #bd9a42, #a05310);
+}
+
+.nav-button-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-image: url('/images/header.Rules.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-button-text {
+    padding: 1rem;
+    font-family: 'Minecraftia', sans-serif;
+    font-size: 32px;
+    line-height: normal;
+    display: inline-block;
+    background: linear-gradient(to bottom, #E7E0E0 21%, #535353 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.nav-button-text.gold {
+    background: linear-gradient(to bottom, #bd9a42, #a05310);
+    padding: 1rem;
+    font-family: 'Minecraftia', sans-serif;
+    font-size: 32px;
+    line-height: normal;
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Play Section */
+.play-section {
+    position: absolute;
+    bottom: 350px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.server-ip {
+    font-family: 'Minecraftia', sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.ip-label {
+    background: linear-gradient(to right, #b5b1b1, #7a7a7a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.ip-address {
+    background: linear-gradient(to bottom, #bd9a42, #c4ae57, #a05310);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

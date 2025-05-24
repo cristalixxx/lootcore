@@ -1,0 +1,42 @@
+.home-container {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.news-container {
+    width: 100%;
+}
+
+.news-section {
+    padding: 0.5rem;
+    background-color: #0e0d0d;
+    border-radius: 20px;
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .content-wrapper {
+        flex-direction: row;
+    }
+
+
+
+}

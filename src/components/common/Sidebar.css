@@ -1,0 +1,113 @@
+.sidebar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* VIP Promo Section */
+.vip-promo {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 180px;
+  padding: 6px;
+}
+
+.vip-card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.store-link {
+  display: block;
+  background-color: #ffc300;
+  color: white;
+  font-family: 'Minecraftia', sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  padding: 6px 0;
+  margin-top: 8px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.store-link:hover {
+  background-color: #ffd700;
+}
+
+/* Threads Section */
+.threads-section {
+  background-color: white;
+  width: 100%;
+  max-width: 180px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.threads-header {
+  background-color: #d6d6d6;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.threads-title {
+  font-family: 'Minecraftia', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #202020;
+  text-align: center;
+}
+
+/* Thread List */
+.thread-list {
+  border-top: 1px solid #d6d6d6;
+}
+
+.thread-item {
+  position: relative;
+  background-color: #d6d6d6;
+  padding: 12px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.thread-item:hover {
+  background-color: #cfcfcf;
+}
+
+.thread-content {
+  margin-left: 15px;
+}
+
+.thread-title {
+  font-family: 'Minecraftia', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #202020;
+  margin-bottom: 4px;
+}
+
+.thread-meta {
+  font-family: 'Minecraftia', sans-serif;
+  font-size: 10px;
+  line-height: 13px;
+  color: #555555;
+}
+
+.thread-decoration {
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background-color: black;
+  border-radius: 4px;
+  opacity: 0.3;
+}
